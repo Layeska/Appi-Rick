@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,400;1,800&display=swap');
+
+body {
+  background: rgb(0, 2, 0);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  margin: auto;
+  border-color: #90929b transparent #818491 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+  
+  @keyframes spin-anim {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  }
+
+.containerHeader img {
+  width: 1380px;
+  height: 420px; 
+}
+
+.general h1 {
+  text-align: center;
+  font-weight: 800;
+}
+
+.navList {
+  
+  width: 50%;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;  
+  gap: 20px;
+  border-radius: 25px;
+}
+
+.navList h2 {
+  color: rgb(5, 198, 229);
+}
+
+.type {
+  width: 50%;
+  display: inline-block;
+ /* background: rgb(129, 152, 48,0.25);*/
+  border-radius: 20px;
+
+}
+
+.type:hover {
+ /* border: solid 2px green;*/
+ /* transform: scale(1.3);*/
+ /* animation-timing-function: linear;*/
+ /* transition-duration: 1s;*/
+ /* border-radius: 8px;*/
+  /*background: transparent;*/
+ /* background: rgb(191, 244, 3, 0.7);*/
+/* background: rgb(129, 152, 48,0.25);*/
+ color: rgb(86, 152, 100);
+ /* border: solid 1px greenyellow;*/
+  
+  
+}
+
+.type p, h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.type h2 {
+  font-weight: 800px;
+}
+
+.type .dimension {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.type p {
+  font-weight: 400px;
+}
+
+.search {
+/*  background: salmon;*/
+  margin-top: 70px;
+  
+}
+/*-- Buscador */
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input[type = 'number'] {
+  min-width: 750px;
+  padding: 0.5rem;
+  padding-left: 1.25rem;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: none;
+  margin-right: 0;
+}
+
+.search button {
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background: rgb(49, 137, 58,0.5);
+  color: white;
+  margin-left: -1px;
+  transition: all 0.1s;
+}
+
+.search button:hover {
+  transform: scale(1.1);
+  background: rgb(159, 210, 31);
+  color: black;
+  cursor: pointer;
+}
+
+/*--Cards*/
+
+.people {
+ /*background: sandybrown;*/
+  margin: 70px 100px;
+}
+
+.person {
+  background: rgb(118, 192, 118, 0.5);
+  backdrop-filter: blur(10px);
+  width: 28%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 45px;
+  padding: 2px;
+  border-radius: 20px;
+  border: solid 2px red;
+}
+
+/*.cardContainer {
+  background: sandybrown;
+  text-align: center;
+}
+*/
+
+.info-container {
+ /*background: seashell;*/
+  height: 250px;
+  margin-top: -50px;
+ 
+}
+
+.info-container img {
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.75);
+}
+
+/*.cardInner img {
+  width: 50%;
+  border-radius: 20px;
+}*/
+
+
+
+.text-container h3 {
+  color: #9FD21F;
+}
+
+
+.text-container .origen {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+ /*
+ .CardContainer {
+     height: 230px;
+     width: 200px;
+     overflow: hidden;
+     border-radius: 0px 0px 20px 20px;
+     display: inline-block;
+ }
+ 
+ .CardContainer img {
+     transform: skew(0deg, -13deg);
+     height: 250px;
+     margin: -35px 0px 0px -70px;
+ }
+ 
+ .info-container {
+     display: inline-block;
+     border-radius: 20px;
+     overflow: hidden;
+     padding: 0px;
+     transform: skew(0deg, 13deg);
+     font-size: 0px;
+     margin: 30px 0px 0px 0px;
+     background: #14983a;
+     height: 250px;
+     width: 200px;
+ }
+ 
+ .text-container {
+   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+   padding: 120px 20px 20px 20px;
+   border-radius: 20px;
+   background: #9FD21F;
+   margin: -120px 0px 0px 0px;
+   line-height: 19px;
+   font-size: 14px;
+   width: 220px;
+ }
+ 
+ .text-container h3 {
+   margin: 20px 0px 10px 0px;
+   color: #31893A;
+   font-size: 18px;
+ }
+ 
+ .text-container {
+   color: #34863D;
+ }
+ */
