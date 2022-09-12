@@ -7,7 +7,7 @@ function App() {
     return ( 
         <>
             <div className='containerHeader'>
-                <img src="../fondo2.jpg" alt="" />
+                <img src="https://i.postimg.cc/bw0gv6KV/fondo2.jpg" alt="" />
             </div>
             <Dimensions/> 
         </>
