@@ -24,6 +24,10 @@ body {
   }
   }
 
+.containerHeader {
+  display: flex;
+  justify-content: center;
+}
 .containerHeader img {
   width: 1380px;
   height: 420px; 
